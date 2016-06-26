@@ -1,0 +1,58 @@
+# Custom CSS
+.projects_holder article .portfolio_description {
+  padding-left: 15px;
+padding-right: 15px;
+}
+.blog_holder article .post_text h2 .date {
+  display: none;
+}
+@media only screen and (min-width: 1000px){
+.header_bottom{
+padding:0;
+}
+header .header_inner_left{
+left:0;
+}
+}
+nav.main_menu>ul>li>a{
+padding:0 60px;
+border-right:  0px solid #d2d3d5;
+}
+nav.main_menu>ul>li:last-child a{
+border:none;
+}
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+nav.main_menu > ul > li > a{
+padding: 0 40px;
+}
+}
+@media only screen  and (min-width: 1400px) and (max-width: 1600px) {
+nav.main_menu > ul > li > a{
+padding: 0 30px;
+}
+}
+@media only screen  and (min-width: 1300px) and (max-width: 1400px) {
+nav.main_menu > ul > li > a{
+padding: 0 20px;
+}
+}
+@media only screen  and (min-width: 1200px) and (max-width: 1300px) {
+nav.main_menu > ul > li > a{
+padding: 0 15px;
+}
+}
+@media only screen  and (min-width: 1100px) and (max-width: 1200px) {
+nav.main_menu > ul > li > a{
+padding: 0 15px;
+font-size:14px;
+}
+}
+@media only screen and (max-width: 1100px) {
+nav.main_menu > ul > li > a{
+padding: 0 10px;
+font-size:14px;
+}
+}
+.footer_bottom a{
+color: #c9d4dd;
+}
